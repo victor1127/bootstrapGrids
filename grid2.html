@@ -17,61 +17,63 @@
 
 <body class="d-flex flex-column h-100">
 
-<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">Grid</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="/index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/grid1.html">Grid 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/grid2.html">Grid 2</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/grid3.html">Grid 3</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/grid4.html">Grid 4</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/grid5.html">Grid 5</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/grid6.html">Grid 6</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/grid7.html">Grid 7</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/grid8.html">Grid 8</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/grid9.html">Grid 9</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Grid</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/grid1.html">Grid 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/grid2.html">Grid 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/grid3.html">Grid 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/grid4.html">Grid 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/grid5.html">Grid 5</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/grid6.html">Grid 6</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/grid7.html">Grid 7</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/grid8.html">Grid 8</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/grid9.html">Grid 9</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           <h1 class="mt-5">Bootstrap and the Grip</h1>
-           <p class="lead">
-                El propósito de este proyecto es proporcionar una visualización clara y concisa 
-                de las diversas formas en que se puede utilizar el sistema de grid de Bootstrap. 
-                Este sistema ofrece una estructura flexible y fácil de implementar para el diseño 
-                de páginas web responsivas. 
-            </p>
+       <div class="container h-100 col-h">
+            <div class="row h-100 g-2">
+                <div class="col-3">
+                    <div class="bg-secondary text-white h-100 p-3">Side Bar</div>
+                </div>
+                <div class="col">
+                    <div class="bg-dark text-white h-100 p-3">Main</div>
+                </div>
+            </div>
        </div>
     </main>
+
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
         <div class="container-fluid text-center">
             <span class="text-muted">Place sticky footer content here.</span>
