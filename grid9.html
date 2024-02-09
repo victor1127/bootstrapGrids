@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>Bootstrap and the Grip: Grid 9</title>
+    <title>Bootstrap and the Grip: Grid 8</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,7 +17,7 @@
 
 <body class="d-flex flex-column h-100">
 
-<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="/index.html">Grid</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -62,17 +62,27 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           <h1 class="mt-5">Bootstrap and the Grip</h1>
-           <p class="lead">
-                El propósito de este proyecto es proporcionar una visualización clara y concisa 
-                de las diversas formas en que se puede utilizar el sistema de grid de Bootstrap. 
-                Este sistema ofrece una estructura flexible y fácil de implementar para el diseño 
-                de páginas web responsivas. 
-            </p>
+       <div class="container h-100 col-h mt-5">
+            <div class="row h-100 g-1">
+                <div class="col-md-12">
+                    <div class="bg-secondary h-100 p-2">Col one</div>
+                </div>
+                <div class="col-6 col-md-3 order-last ">
+                    <div class="bg-dark h-100 p-2 text-light">Col two</div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="bg-secondary h-100 p-2">Col Three</div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="bg-secondary h-100 p-2">Col Four</div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="bg-secondary h-100 p-2">Col Five</div>
+                </div>
+            </div>
        </div>
     </main>
-    <footer class="footer mt-auto py-3 bg-light sticky-footer">
+    <footer class="footer mt-auto py-3 bg-dark sticky-footer">
         <div class="container-fluid text-center">
             <span class="text-muted">Place sticky footer content here.</span>
         </div>
