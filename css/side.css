@@ -9,6 +9,10 @@ main>.container {
     width: 100%;
 }
 
+body > main{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
 .body-bg-img{
     width: 100%;
     height: 100%;
@@ -20,5 +24,5 @@ main>.container {
 }
 
 .col-h{
-    min-height: 80vh;
+    min-height: 65vh;
 }

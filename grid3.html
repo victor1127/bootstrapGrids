@@ -62,14 +62,36 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           <h1 class="mt-5">Bootstrap and the Grip</h1>
-           <p class="lead">
-                El propósito de este proyecto es proporcionar una visualización clara y concisa 
-                de las diversas formas en que se puede utilizar el sistema de grid de Bootstrap. 
-                Este sistema ofrece una estructura flexible y fácil de implementar para el diseño 
-                de páginas web responsivas. 
-            </p>
+       <div class="container h-100 col-h">
+        <div class="row h-100">
+            <!--left column-->
+            <div class="col-7">
+                <div class="bg-secondary text-lightv p-2 h-100 text-light">Article</div>
+            </div>
+
+            <!--right column-->
+            <div class="col h-100 d-flex flex-column justify-content-evenly">
+                <!--right top-->
+                <div class="bg-dark text-light h-50 p-2">Article</div>
+
+                <!--right top-->
+                <div class="bg-dark text-light h-50 mt-2 p-2 overflow-auto">
+                    <h5>Article header</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                    </p>
+                </div>
+
+                <div class="bg-dark border border-top p-2">
+                    <button class="btn btn-light">Read Me</button>
+                </div>
+            </div>
+        </div>
+
        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
