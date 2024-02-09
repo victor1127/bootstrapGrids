@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>Bootstrap and the Grip: Grid 3</title>
+    <title>Bootstrap and the Grip: Grid 3B</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -64,44 +64,41 @@
     <main class="flex-shrink-0">
        <div class="container h-100 col-h">
 
-        <ul class="nav nav-pills mb-1">
-            <li class="nav-item me-1">
-                <a class="nav-link active" aria-current="page" href="grid3.html">Grid 3</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="grid3b.html">Grid 3B</a>
-            </li>
-        </ul>
+            <ul class="nav nav-pills mb-1">
+                <li class="nav-item me-1">
+                    <a class="nav-link" href="grid3.html">Grid 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="grid3b.html">Grid 3B</a>
+                </li>
+            </ul>
 
-        <div class="row h-100">
+        <div class="row h-100 ">
             <!--left column-->
             <div class="col-7">
                 <div class="bg-secondary text-lightv p-2 h-100 text-light">Article</div>
             </div>
 
             <!--right column-->
-            <div class="col">
+            <div class="col h-100 d-flex flex-column justify-content-evenly">
                 <!--right top-->
-                <div class="bg-secondary text-light p-2">
-                    <!--search bar-->
-                    <form class="d-flex">
-                        <input class="form-control text-light me-1" placeholder="Search">
-                        <button class="btn btn-outline-light">Search</button>
-
-                    </form>
-                </div>
+                <div class="bg-dark text-light h-50 p-2">Article</div>
 
                 <!--right top-->
-                <div class="bg-dark text-light h-50 mt-2 p-2">
-                    <h6>Article header</h6>
-                    <ul class="nav flex-column">
-                        <li class="nav-item"><a class="nav-link">Article 1</a></li>
-                        <li class="nav-item"><a class="nav-link">Article 1</a></li>
-                        <li class="nav-item"><a class="nav-link">Article 1</a></li>
-                    </ul>
-
+                <div class="bg-dark text-light h-50 mt-2 p-2 overflow-auto">
+                    <h5>Article header</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                    </p>
                 </div>
 
+                <div class="bg-dark border border-top p-2">
+                    <button class="btn btn-light">Read Me</button>
+                </div>
             </div>
         </div>
 
