@@ -26,3 +26,7 @@ body > main{
 .col-h{
     min-height: 65vh;
 }
+
+.minheight{
+    min-height: 75vh;
+}
